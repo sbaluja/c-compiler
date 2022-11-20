@@ -1,0 +1,17 @@
+/*
+[ERROR] Undefined function: print
+[ERROR] Undefined use of: m 
+*/
+
+void printBackward(int arr[], int len)
+{
+    int i;
+    i = len - 1;
+
+    while (i > 1) {
+        /* Undefined function */
+        print(arr[i]);
+        i = i - 1;
+        m = len;
+    }
+}

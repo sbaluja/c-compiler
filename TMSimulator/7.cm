@@ -1,0 +1,14 @@
+/*
+[ERROR] Type mismatch in assignment found (VOID) expected (INT)
+[ERROR] Type mismatch around operator, found (VOID) < (INT) 
+[ERROR] Type mismatch around operator, found (VOID) + (INT) 
+*/
+
+int main(void){
+    int x; void m;
+
+    x = m;
+    while (m < 10){
+        m = m + 1;
+    }
+}

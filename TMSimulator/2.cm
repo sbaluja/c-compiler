@@ -1,0 +1,22 @@
+/* 
+ * This program introduces function calls
+ * No Errors
+ * Difficulty: Easy
+ */
+
+int add (int x, int y) {
+    int res;
+    res = x + y;
+    return res;
+}
+
+void main(void) {
+    int x; 
+    int y;
+    int z;
+    x = add(1, 1);
+    y = add(5, 0);
+    z = add(x, y);
+    /* Should always output 7 */
+    output(z);
+}

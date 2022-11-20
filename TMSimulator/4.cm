@@ -1,0 +1,20 @@
+/* 
+ * More complex c- program with loops
+ * No Errors
+ * Difficulty: Easy
+*/
+
+/* Print the numbers between start and end */
+void printNumbers(int start, int end) {
+
+    while(start < end){
+        output(start);
+        start = start + 1;
+    }
+    
+}
+
+void main(void) {
+    /* Should always output numbers 0-9 */
+    printNumbers(0,10);
+}

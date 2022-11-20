@@ -1,0 +1,13 @@
+/*
+[ERROR] Index variable not type INT 
+[ERROR] Return type must be (INT), found (VOID) 
+[ERROR] Return type must be (INT), found (VOID) 
+*/
+
+int main(void){
+    void m; int array[2];
+    if (array[m] > 0){
+        return m;
+    }
+    return m;
+}

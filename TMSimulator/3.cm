@@ -1,0 +1,28 @@
+/*
+ * Introduces if-else condition in a funciton
+ * No Errors
+ * Difficulty: Easy
+*/
+
+int ifElseFunction(void) {
+    int x; int y; int z;
+    x = 10;
+    y = 11;
+
+    if (x > y) {
+        output(1);
+        z = x;
+        return z;
+    } else {
+        output(2);
+        return y;
+    }
+}
+ 
+void main(void) {
+    int result;
+    result = ifElseFunction();
+
+    /* Should always output 11 */
+    output(result);
+}

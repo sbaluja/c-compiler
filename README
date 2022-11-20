@@ -1,0 +1,19 @@
+Create a Scanner, Parser and Error Recovery System
+
+Compilation Instructions
+-------------------------
+type "make" in current directory
+
+
+Running Instructions
+---------------------
+To test source code 
+
+"make clean" can be used to delete data files. "make" will have to be typed to build the scanner again
+
+Testing Plan
+-------------
+Ensure JFlex is installed
+Ensure CUP is installed
+Linux Environment (SoCS Server)
+Run file in directory
